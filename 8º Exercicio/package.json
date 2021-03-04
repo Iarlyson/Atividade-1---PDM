@@ -1,0 +1,20 @@
+{
+  "name": "exercicio08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "node ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
