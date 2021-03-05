@@ -33,6 +33,6 @@ const usuario = {
 
 const usuario2 = { ...usuario, nome: "Gabriel" };
 
-const usuario3 = { ...usuario, nome: "Lontras" };
+const usuario3 =  {...usuario, endereco: {...usuario.endereco, cidade: 'Lontras'}};
 
 console.log(usuario2, usuario3);
