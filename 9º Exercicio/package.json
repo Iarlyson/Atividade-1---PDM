@@ -1,0 +1,21 @@
+{
+  "name": "Exericio09",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^14.14.31",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "start": "ts-node ./src",
+    "build": "tsc -p .",
+    "start-node": "tsc -p . && node ./dist"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
