@@ -1,4 +1,5 @@
 //2º exercício
+
 const projetos = [
     { nome:'projeto1', valor:10000, empresa:'A',endereço:{rua:'x',cidade:'Z',numero:45} },
     { nome:'projeto2', valor:20000, empresa:'B',endereço:{rua:'y',cidade:'T',numero:4} },
