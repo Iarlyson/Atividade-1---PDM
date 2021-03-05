@@ -3,10 +3,12 @@ import axios from "axios";
 class GitHub {
   public static async getRepositories(repo: string) {
     console.log("Example 04");
-    const response = await axios.get(`https://api.github.com/repos/${repo}`);
-    response?.data
-      ? console.log(response?.data)
-      : console.log("Repositorio inexistente");
+    try {
+      const response = await axios.get(`https://api.github.com/repos/${repo}`);
+      console.log(response.data);
+    } catch (err) {
+      console.log("Repositório inexistente");
+    }
   }
 }
 

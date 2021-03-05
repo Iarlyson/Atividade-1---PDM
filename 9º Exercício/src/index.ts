@@ -10,7 +10,7 @@ const execExamples = async () => {
 
   // Example 02
 
-  await getUserFromGitHub("daniel-dantas");
+  await getUserFromGitHub("daniel-dantasdddd");
 
   // Example 03
 
