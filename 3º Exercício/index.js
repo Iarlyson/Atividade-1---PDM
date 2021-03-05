@@ -20,6 +20,7 @@ console.log(mostraUsuario(nomeVariavel, idadeVariavel));
 console.log(mostraUsuario(nomeVariavel));
 
 //3.4
-const promisse = () => {
-  return new Promise((resolve, reject) => resolve());
-}
+const promisse = () => 
+  new Promise((resolve, reject) => resolve());
+
+console.log(promisse())
