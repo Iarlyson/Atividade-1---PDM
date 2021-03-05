@@ -1,6 +1,6 @@
 
 function printUser (){
-    const usuario = 'Iarlyson';
+    const usuario = 'Diego';
     const idade = 23;
     return  `o usuario ${usuario} possui ${idade} anos`; 
 }
