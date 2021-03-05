@@ -1,5 +1,14 @@
-# Atividade 1 - PDM
+# PDM 2020.2 - Atividade 1
 
-##Daniel Dantas
-##Francisco Iarlyson Santana de Andrade
-##José Jonas Cavalcante
+INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA PARAÍBA - CAMPUS CAJAZEIRAS.
+
+CURSO DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS.
+
+DISCIPLINA: PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS.
+
+
+### Equipe:
+
+#### Daniel Dantas
+#### Francisco Iarlyson Santana de Andrade
+#### José Jonas Gomes da Silva Cavalcante
