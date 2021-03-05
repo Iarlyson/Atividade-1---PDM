@@ -41,7 +41,13 @@ function mostraInfo(usuario) {
     const {nome , idade} = usuario;
     return `${nome} tem ${idade} anos.`;
 }
+console.log(mostraInfo({ nome: 'Diego', idade: 23}));
 
+//correção
+function mostraInfo({nome , idade}) {
+     
+    return `${nome} tem ${idade} anos.`;
+}
 console.log(mostraInfo({ nome: 'Diego', idade: 23}));
 
 
