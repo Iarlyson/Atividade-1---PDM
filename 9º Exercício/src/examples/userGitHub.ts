@@ -6,6 +6,7 @@ const getUserFromGitHub = async (user: string) => {
     const response: { data: any } = await axios.get(
       `https://api.github.com/users/${user}`
     );
+    console.log(response.data);
   } catch (err) {
     console.log("Usuario não encontrado!");
   }
