@@ -6,8 +6,8 @@ console.log(arr.map(item => item+10))
 
 //3.2
 const usuario = {nome: "Diego", idade: 23};
-const mostraidade = (usuario) => usuario.idade;
-console.log(mostraidade(usuario));
+const mostraIdade = (usuario) => usuario.idade;
+console.log(mostraIdade(usuario));
 
 //3.3
 
