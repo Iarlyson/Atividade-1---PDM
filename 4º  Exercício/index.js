@@ -1,6 +1,6 @@
 //4º exercício
 
-//4.1
+//4.1 Desestruturação simples
 const empresa = {
     nome: 'Rocketseat',
     endereco: {
@@ -16,7 +16,7 @@ console.log(nome);
 console.log(cidade);
 console.log(estado);
 
-//4.2
+//4.2 Desestruturação em parâmetros
 
 function mostraInfo(usuario) {
     const {nome , idade} = usuario;
